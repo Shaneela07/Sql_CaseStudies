@@ -2,15 +2,15 @@
 
 --Problem Statement:
 
-You are a database administrator. You want to use the data to answer a few questions about your customers, especially about the sales and 
+/* You are a database administrator. You want to use the data to answer a few questions about your customers, especially about the sales and 
 profit coming from different states, money spent in marketing and various other factorssuchas COGS (Cost of Goods Sold), budget profit etc.
 You plan on using these insights to help find out which items are being sold the most. You have been provided with the sample of the 
 overall customer data due to privacy issues. But you hope that these samples are enough for you to write fully functioning SQL queries 
-to help answer the questions.
+to help answer the questions.*/
 
 --Dataset:
 
-The 3 key datasets for this case study:
+/* The 3 key datasets for this case study:
 
 -- 1) FactTable:
 The Fact Table has 14 columns mentioned below and 4200rows. Date, ProductID, Profit, Sales, Margin, COGS, Total Expenses, Marketing, 
@@ -23,7 +23,7 @@ details to retrieve the information mentioned in the FactTable.
 
 -- 3) LocationTable:
 Finally, the LocationTable has 156 rows and follows a similar approach to ProductTable. It has four columns named Area Code, State, Market,
-and Market Size.
+and Market Size.*/
 
 
 --Import CSV file in Database in SQL Server
@@ -222,7 +222,7 @@ SELECT Area_Code FROM Fact1
 INTERSECT
 SELECT Area_Code FROM Location;
 
---25. Create a user-defined function for the product table to fetch a particular product type based upon the user’s preference.
+--25. Create a user-defined function for the product table to fetch a particular product type based upon the userâ€™s preference.
 Solution--> 
 CREATE FUNCTION FetchProductType (@productType NVARCHAR(255))
 RETURNS TABLE
@@ -261,5 +261,6 @@ SELECT Product, ASCII(SUBSTRING(Product, 5, 1)) AS Fifth_Character_ASCII
 FROM Product;
 
 ---------******************************************************THANK YOU****************************************************************------------
+
 
                                                            
