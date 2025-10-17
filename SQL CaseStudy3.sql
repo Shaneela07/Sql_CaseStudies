@@ -2,8 +2,8 @@
 
 --Problem Statement:
 
-You are the database developer of an international bank. You are responsible for
-managing the bank’s database. You want to use the data to answer a few
+/* You are the database developer of an international bank. You are responsible for
+managing the bankâ€™s database. You want to use the data to answer a few
 questions about your customers regarding withdrawal, deposit and so on,
 especially about the transaction amount on a particular date across various
 regions of the world. Perform SQL queries to get the key insights of a customer.
@@ -21,7 +21,7 @@ region_id, start_date and end_date which consists of 3500 records.
 --c. Transaction: 
 Finally, the Transaction table contains around 5850 records
 and has four attributes named customer_id, txn_date, txn_type and
-txn_amount.
+txn_amount.*/
 
 USE [MandatoryAssignments]
 
@@ -247,3 +247,4 @@ PIVOT (
 
 
 /////////////////////////////////////////////////////////////// THANK YOU //////////////////////////////////////////////////////////////////////////////////
+
