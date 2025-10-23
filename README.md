@@ -215,7 +215,7 @@ They are ideal for:
 **👩‍💻 Shanila Anjum**
 - 📧 [shanilaanjum07@gmail.com](mailto:shanilaanjum07@gmail.com)
 - **GitHub:**  [GitHub Profile](https://github.com/Shaneela07)
-- **LinkedIn:** [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in//shaneela-anjum/)
+- **LinkedIn:** <a href="https://www.linkedin.com/in/shaneela-anjum/"><img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 
 
 ---
